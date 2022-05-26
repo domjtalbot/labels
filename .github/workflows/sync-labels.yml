@@ -37,7 +37,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           manifest: labels/core.yml
-          prune: ${{ github.event.inputs.prune == true }}
+          prune: true
 
   sync-nx-labels:
     runs-on: ubuntu-20.04
@@ -51,4 +51,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           manifest: labels/nx.yml
-          prune: ${{ github.event.inputs.prune == true }} 
+          prune: true
