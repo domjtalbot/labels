@@ -1,0 +1,51 @@
+# =========================================================
+#
+# Nx
+#
+# Labels that match common Nx tags
+#
+# Color - ea4245
+#
+# =========================================================
+
+- name: "nx"
+  description: Issue, pull request or discussion relating to nx
+  color: "143157"
+
+
+
+
+# =========================================================
+#
+# Scopes
+#
+# Color - ea4245
+#
+# =========================================================
+
+- name: "nx-scope: docs"
+  description: Issue, pull request or discussion relating to a docs nx library/app
+  color: "143157"
+
+- name: "nx-scope: shared"
+  description: Issue, pull request or discussion relating to a shared nx library
+  color: "143157"
+
+
+
+
+# =========================================================
+#
+# Types
+#
+# Color - ea4245
+#
+# =========================================================
+
+- name: "nx-type: app"
+  description: Issue, pull request or discussion relating to an nx app
+  color: "143157"
+
+- name: "nx-type: e2e"
+  description: Issue, pull request or discussion relating to an nx e2e app
+  color: "143157"
