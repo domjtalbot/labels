@@ -37,10 +37,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           manifest: labels/core.yml
-          prune: ${{ github.event.inputs.prune == true }} 
-          repository: |
-            domjtalbot/labels
-          token: ${{ secrets.GH_AUTH }}
+          prune: ${{ github.event.inputs.prune == true }}
 
   sync-nx-labels:
     runs-on: ubuntu-20.04
@@ -55,6 +52,3 @@ jobs:
         with:
           manifest: labels/nx.yml
           prune: ${{ github.event.inputs.prune == true }} 
-          repository: |
-            domjtalbot/labels
-          token: ${{ secrets.GH_AUTH }}
