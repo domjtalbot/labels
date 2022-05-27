@@ -13,12 +13,6 @@ on:
     - cron: '0 0 * * */7'
   
   workflow_dispatch:
-    inputs:
-      prune:
-        type: boolean
-        description: 'Remove labels from a repo which are not defined in the labels config?'
-        required: false
-        default: false
 
 concurrency: 
   group: ${{ github.head_ref || github.run_id }}
