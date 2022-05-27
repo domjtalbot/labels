@@ -50,6 +50,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           manifest: labels/core/${{ matrix.config }}
+          prune: false
 
   sync-nx-labels:
     runs-on: ubuntu-20.04
@@ -63,3 +64,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           manifest: labels/nx.yml
+          prune: false
