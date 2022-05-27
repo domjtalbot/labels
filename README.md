@@ -21,7 +21,7 @@
 
 Labels are categorized into multiple configs for ease of use.
 
-For most repos the `labels/core.yml` config will provide all the minimal labels to get started.
+For most repos the `labels/core/*.yml` configs will provide all the minimal labels to get started.
 
 There are also additional configs for repos that require more specialist labels such as `nx`.
 
