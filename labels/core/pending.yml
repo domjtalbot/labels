@@ -1,0 +1,16 @@
+# =========================================================
+#
+# Pending
+#
+# Taking action, but need a few things to happen first.
+# A feature that needs dependencies merged, or a bug that
+# needs further data.
+#
+# Color - f8cb40
+#
+# =========================================================
+
+- name: in progress
+  description: Indicates the issue or pull request is in progress
+  color: "f8cb40"
+  

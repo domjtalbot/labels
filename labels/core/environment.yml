@@ -1,0 +1,58 @@
+# =========================================================
+#
+# Environment
+#
+# Build/Server environment.
+# With good QA, you’ll identify issues on test and staging deployments.
+#
+# Color - ed6b54
+#
+# =========================================================
+
+- name: ci
+  description: An issue or pull request related to CI
+  color: "ed6b54"
+
+- name: circleci
+  description: An issue or pull request related to CircleCI
+  color: "ed6b54"
+
+- name: github actions
+  description: An issue or pull request related to GitHub Actions
+  color: "ed6b54"
+
+- name: ghcr
+  description: An issue or pull request related to GitHub Container Registry (GHCR)
+  color: "ed6b54"
+
+- name: docker hub
+  description: An issue or pull request related to Docker Hub
+  color: "ed6b54"
+
+- name: vercel
+  description: An issue or pull request related to Vercel
+  color: "ed6b54"
+
+- name: netlify
+  description: An issue or pull request related to Netlify
+  color: "ed6b54"
+  
+- name: preview
+  description: Preview environment
+  color: "ed6b54"
+
+- name: development
+  description: Development environment
+  color: "ed6b54"
+
+- name: staging
+  description: Staging environment
+  color: "ed6b54"
+
+- name: test
+  description: Test environment
+  color: "ed6b54"
+
+- name: production
+  description: Production environment
+  color: "ed6b54"

@@ -1,0 +1,11 @@
+# =========================================================
+#
+# IDEs
+#
+# Color - 56bfd6
+#
+# =========================================================
+
+- name: vscode
+  description: This issue or pull request is related to VSCode
+  color: '56bfd6'

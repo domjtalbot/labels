@@ -1,0 +1,30 @@
+# =========================================================
+#
+# Bot
+#
+# Issues, pull requests or discussions opened / managed
+# by bots.
+#
+# Color - f9cf52
+#
+# =========================================================
+
+- name: automated
+  description: An issue, pull request or discussion opened / managed by an automated bot.
+  color: "f9cf52"
+
+- name: automerge
+  description: An pull request that will be automatically merged.
+  color: "f9cf52"
+
+- name: bot
+  description: An issue, pull request or discussion opened / managed by a bot
+  color: "f9cf52"
+
+- name: dependabot
+  description: An issue or pull request manged by Renovate
+  color: "f9cf52"
+
+- name: renovate
+  description: An issue or pull request manged by Renovate
+  color: "f9cf52"

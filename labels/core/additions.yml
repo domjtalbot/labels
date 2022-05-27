@@ -1,0 +1,14 @@
+# =========================================================
+#
+# Additions
+#
+# Brand new functionality.
+# New pages, workflows, endpoints, etc.
+#
+# Color - 9ad160
+#
+# =========================================================
+
+- name: feature
+  description: Indicates new functionality
+  color: "9ad160"

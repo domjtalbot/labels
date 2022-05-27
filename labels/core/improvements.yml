@@ -1,0 +1,23 @@
+# =========================================================
+#
+# Improvements
+#
+# Iterations on existing features or infrastructure.
+# Generally these update speed, or improve the quality
+# of results.
+#
+# Color - 61b0e3
+#
+# =========================================================
+
+- name: documentation
+  description: Indicates a need for improvements or additions to documentation
+  color: "61b0e3"
+
+- name: enhancement
+  description: Indicates an enchancement to an existing feature
+  color: "61b0e3"
+
+- name: optimization
+  description: Indicates an optimization to an existing feature
+  color: "61b0e3"

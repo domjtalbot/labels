@@ -1,0 +1,28 @@
+# =========================================================
+#
+# Experience
+#
+# Affect user’s comprehension, or overall enjoyment of
+# the product.
+# These can be both opportunities and “UX bugs”.
+#
+# Color - f6c173
+#
+# =========================================================
+
+- name: copy
+  description: Indicates that an issue or pull request is related to copy changes
+  color: "f6c173"
+
+- name: design
+  description: Indicates that an issue or pull request is related to design changes
+  color: "f6c173"
+
+- name: dx
+  description: Indicates that an issue or pull request is related to developer experience (DX) changes
+  color: "f6c173"
+
+- name: ux
+  description: Indicates that an issue or pull request is related to user experience (UX) changes
+  color: "f6c173"
+  

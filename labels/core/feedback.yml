@@ -1,0 +1,32 @@
+# =========================================================
+#
+# Feedback
+#
+# Iterations on existing features or infrastructure.
+# Generally these update speed, or improve the quality
+# of results.
+#
+# Color - cf588c
+#
+# =========================================================
+
+- name: discussion
+  description: Indicates a need for improvements or additions to documentation
+  color: "cf588c"
+
+- name: question
+  description: Indicates that an issue, pull request, or discussion needs more information
+  color: "cf588c"
+
+- name: good first issue
+  description: Indicates a good issue for first-time contributors
+  color: "cf588c"
+
+- name: help wanted
+  description: Indicates that a maintainer wants help on an issue or pull request
+  color: "cf588c"
+
+- name: first time contribution
+  description: Indicates that a the issue or pull request was opened by a first time contributor
+  color: "cf588c"
+  
