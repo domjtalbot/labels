@@ -1,0 +1,59 @@
+# =========================================================
+#
+# Tooling
+#
+# Color - acb6fc
+#
+# =========================================================
+
+- name: babel
+  description: This issue or pull request is related to Babel
+  color: 'acb6fc'
+
+- name: cypress
+  description: This issue or pull request is related to Cypress
+  color: 'acb6fc'
+
+- name: dependencies
+  description: This issue or pull request is related to dependencies
+  color: 'acb6fc'
+
+- name: docker
+  description: This issue or pull request is related to docker
+  color: 'acb6fc'
+
+- name: eslint
+  description: This issue or pull request is related to ESLint
+  color: 'acb6fc'
+
+- name: git
+  description: This issue or pull request is related to Git
+  color: 'acb6fc'
+
+- name: jest
+  description: This issue or pull request is related to Jest
+  color: 'acb6fc'
+
+- name: prettier
+  description: This issue or pull request is related to Prettier
+  color: 'acb6fc'
+
+- name: npm
+  description: This issue or pull request is related to NPM
+  color: 'acb6fc'
+
+- name: nvm
+  description: This issue or pull request is related to NVM
+  color: 'acb6fc'
+
+- name: typescript
+  description: This issue or pull request is related to Typescript
+  color: 'acb6fc'
+
+- name: yarn
+  description: This issue or pull request is related to Yarn
+  color: 'acb6fc'
+
+- name: volta
+  description: This issue or pull request is related to Volta
+  color: 'acb6fc'

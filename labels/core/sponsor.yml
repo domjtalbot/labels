@@ -1,0 +1,13 @@
+# =========================================================
+#
+# Sponsor
+#
+# Issues, pull requests or discussions opened by a sponsor.
+#
+# Color - e95490
+#
+# =========================================================
+
+- name: sponsor
+  description: This issue or pull request was opened by a sponsor
+  color: 'e95490'

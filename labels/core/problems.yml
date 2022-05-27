@@ -1,0 +1,22 @@
+# =========================================================
+#
+# Problems
+#
+# Issues that make the product feel broken.
+# High priority, especially if its present in production.
+#
+# Color - ea4245
+#
+# =========================================================
+
+- name: blocked
+  description: This issue or pull request is blocked by a problem outside the scope of this project
+  color: "ea4245"
+
+- name: bug
+  description: Indicates an unexpected problem or unintended behavior
+  color: "ea4245"
+
+- name: security
+  description: Indicates that an issue, pull request, or discussion is security related
+  color: "ea4245"

@@ -1,0 +1,28 @@
+# =========================================================
+#
+# Inactive
+#
+# No action needed or possible.
+# The issue is either fixed, addressed better by other
+# issues, or just out of product scope.
+#
+# Color - d2dae1
+#
+# =========================================================
+
+- name: invalid
+  description: Indicates that an issue, pull request, or discussion is no longer relevant
+  color: "d2dae1"
+
+- name: stale
+  description: Indicates that work won't continue on an issue, pull request, or discussion
+  color: "d2dae1"
+
+- name: wontfix
+  description: Indicates that work won't continue on an issue, pull request, or discussion
+  color: "d2dae1"
+
+- name: duplicate
+  description: Indicates similar issues, pull requests, or discussions
+  color: "d2dae1"
+  

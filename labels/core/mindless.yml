@@ -1,0 +1,19 @@
+# =========================================================
+#
+# Mindless
+#
+# Converting measurements, reorganizing folder structure,
+# and other necessary (but less impactful) tasks.
+#
+# Color - fdf2c0
+#
+# =========================================================
+
+- name: chore
+  description: Indicates an unexpected problem or unintended behavior
+  color: "fdf2c0"
+
+- name: legal
+  description: Indicates that an issue, pull request, or discussion is security related
+  color: "fdf2c0"
+  
