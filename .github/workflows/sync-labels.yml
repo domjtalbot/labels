@@ -29,7 +29,7 @@ jobs:
 
     - name: Get Core label configs
       id: filelist
-      uses: the-coding-turtle/ga-file-list@v0.4.1
+      uses: the-coding-turtle/ga-file-list@930f732cb017908f0c43868fb6ce01b9549c2c5e # tag=v0.4.1
       with:
         directory: "labels/core"
         file_extension: "yml"
