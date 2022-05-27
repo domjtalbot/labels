@@ -25,18 +25,37 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  get-core-configs:
+    runs-on: ubuntu-latest
+    outputs:
+      configs: ${{ steps.filelist.outputs.files }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+
+    - name: Get Core label configs
+      id: filelist
+      uses: the-coding-turtle/ga-file-list@v0.4.1
+      with:
+        directory: "labels/core"
+        file_extension: "yml"
+
   sync-core-labels:
+    needs: get-core-configs
     runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        config: ${{fromJson(needs.get-core-configs.outputs.configs)}}
     steps:
       - name: Checkout
         uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
 
-      - name: Sync Labels
+      - name: Sync ${{ matrix.config }} labels
         uses: micnncim/action-label-syncer@3abd5ab72fda571e69fffd97bd4e0033dd5f495c # tag=v1.3.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          manifest: labels/core.yml
+          manifest: labels/core/${{ matrix.config }}
           prune: true
 
   sync-nx-labels:
